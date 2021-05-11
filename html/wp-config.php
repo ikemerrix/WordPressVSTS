@@ -27,17 +27,17 @@ if (empty($dbname)){
 
 $dbuser = getenv('DB_ENV_USER');
 if (empty($dbuser)){
-	$dbuser = 'yaprigal@yaprigalmysql';
+	$dbuser = 'merrix@mc-dbwps';
 }
 
 $dbpassword = getenv('DB_ENV_PASSWORD');
 if (empty($dbpassword)){
-	$dbpassword = 'Microsoft0512$';
+	$dbpassword = 'men@worK243$';
 }
 
 $dbhost = getenv('DB_ENV_HOST');
 if (empty($dbhost)){
-	$dbhost = 'yaprigalmysql.mysql.database.azure.com:3306';
+	$dbhost = 'mc-dbwps.mysql.database.azure.com:3306';
 }
 
 
