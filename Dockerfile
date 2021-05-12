@@ -1,4 +1,4 @@
-FROM wordpress:4.9.1-apache
+FROM wordpress
 
 COPY html /var/www/html
 COPY application-insights /var/www/html/wp-content/plugins
